@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página Web Simples"</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Pagina Inicial</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Bem vindo a meu site simples</p>
+      </section>
+
+      <section>
+        <h2>Ultimas Noticias</h2>
+        <p>Confira as noticias</p>
+      </section>
+
+      <section>
+        <h2>Galeria de Imagens</h2>
+        <div class="slider-container">
+            <div class="slide">
+                <img src="im1.jpeg" alt="im1">
+            </div>
+            <div class="slide">
+                <img src="im2.jpeg" alt="im2">
+            </div>
+            <div class="slide">
+                <img src="im3.jpeg" alt="im3">
+            </div>
+    
+            <button class="prev-slide">&#10094;</button>
+            <button class="next-slide">&#10095;</button>
+        </div>
+    </section>
+
+      <section>
+        <h2>Depoimentos de Clientes</h2>
+        <div class="testemunho"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          aperiam iure accusamus, fugit sint laborum nulla iste, quae esse fuga
+          laudantium dignissimos illum! Qui veritatis corrupti odit animi quis
+          tenetur?
+        </p>
+        <p class="author">Cliente 1</p>
+
+        <div class="testemunho"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          cumque voluptate perferendis minima omnis expedita praesentium est
+          accusamus pariatur magni. Optio labore voluptatum soluta, in possimus
+          alias non id cum. Temporibus mollitia, esse dicta natus non, harum,
+          sit praesentium necessitatibus tempora deleniti tenetur numquam sequi?
+          Perferendis, quaerat! Laudantium quidem qui molestias assumenda
+          recusandae reprehenderit maiores sequi eum explicabo, quas odit!
+          Corporis fugit, ullam ex beatae quo cum doloribus. Unde iusto, ipsum
+          consequuntur libero temporibus expedita aliquid molestiae amet tempora
+          quisquam, quidem dolorum fugiat perferendis architecto! Velit sequi
+          consequatur vitae architecto.
+        </p>
+        <p class="author">Cliente 2</p>
+      </section>
+
+      <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="">
+          <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="message">Mensagem</label>
+            <textarea
+              name="message"
+              id="message"
+              cols=""
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Meu site simples.</p>
+    </footer>
+    <script src="scroll.js"></script>
+  </body>
+</html>
